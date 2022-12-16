@@ -18,7 +18,8 @@
 
 ## Code examples
     Codevars : prostayurik
-    ```function duplicateCount(text){
+    ```
+    function duplicateCount(text){
         let text1 = text.toLowerCase();
         let arr = [], count = 0;
         for(let i = 0; i < text1.length; i++){
@@ -35,8 +36,8 @@
         return count;  
     }    
     ```
-    ---
-    ```function solution(number){
+    ```
+    function solution(number){
         let sum = 0;  
         for(let i = 1; i < number; i++){
             if(i % 3 == 0 || i % 5 == 0){
