@@ -18,6 +18,7 @@
 
 ## Code examples
     Codevars : prostayurik
+
     ```
     function duplicateCount(text){
         let text1 = text.toLowerCase();
@@ -36,6 +37,7 @@
         return count;  
     }    
     ```
+    
     ```
     function solution(number){
         let sum = 0;  
