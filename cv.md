@@ -36,6 +36,7 @@
         return count;  
     }
     ```
+    ---
     ```
     function solution(number){
         let sum = 0;  
@@ -47,5 +48,6 @@
         return sum;
     }
     ```
-    
-### English: beginner (a1)    
+
+## English
+    Beginner (A1)    
