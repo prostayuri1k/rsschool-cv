@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/img/2022-12-14 16.08.35.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">About me</a>
+                    </li><li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code-examples" class="nav-link">Code examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#english" class="nav-link">English</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main ">
+        <div class="container main-container">
+            <section class="section-photo-and-contacts">
+                <div class="photo-and-article">
+                    <h1>Yury Hrymats</h1>
+                    <img class="my-photo" src="./assets/img/2022-12-14 16.08.35.jpg" alt="my photo">
+                </div>
+                <div class="contacts">
+                    <h2 class="contacts-title" id="contacts">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <img src="./assets/img/phone-icon-946.png" alt="phone-logo" class="contacts-img img-phone">
+                        +375336677798
+                    </li>
+                    <li class="contacts-item">
+                        <img src="./assets/img/mail.png" alt="mail-logo" class="contacts-img img-mail">
+                        yury.hrymats@icloud.com 
+                    </li>
+                    <li class="contacts-item">
+                        <img src="./assets/img/telegram-logo-944.png" alt="telegram-logo" class="contacts-img img-telegram">
+                        @iuragrimot
+                    </li>
+                    <li class="contacts-item">
+                        <img src="./assets/img/discord-logo-png-7617.png" alt="discord-logo" class="contacts-img img-discord">
+                        prostayuri1k
+                    </li>
+                </ul>
+                </div>                      
+            </section>
+            <section class="about-me-and-skiils">
+                <div class="about-me">
+                    <h2 class="about-me-title" id="about-me">About me</h2>
+                    <p class="about-me-descript">
+                        I want to become a developer! I like to learn something new and try to apply it in my life
+                    </p>
+                </div>
+                <div class="skills">
+                    <h2 class="skills-title" id="skills">Skills</h2>
+                    <ul class="skiils-list">
+                        <li class="skills-item">Completed a course on stepik "javascript for beginners"</li>
+                        <li class="skills-item">HTML basics</li>
+                        <li class="skills-item">CSS basics
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="code-examples">
+                <h2 class="code-examples-title" id="code-examples">Code examples</h2>                
+                <div class="coding">
+                    <pre>
+                        <code class="code">
+                            function duplicateCount(text){
+                                let text1 = text.toLowerCase();
+                                let arr = [], count = 0;
+                                for(let i = 0; i < text1.length; i++){
+                                    arr.push(text1[i]);
+                                }
+                                for(let i = 0; i < arr.length; i++){
+                                    if(arr.includes(arr[i], i + 1)){
+                                        count++;
+                                        while(arr.includes(arr[i], i+1)){
+                                            arr.splice(arr.indexOf(arr[i],i+1),1);
+                                        }            
+                                    }
+                                }    
+                                return count;  
+                            }
+                        </code> 
+                    </pre>                    
+                </div>                              
+            </section>
+            <section class="english">
+                <h2 class="english-title" id="english">English</h2>
+                <p class="english-descript">Beginner (A1)</p>
+            </section>              
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <p class="footer-info-year">2022</p>
+                <a href="https://github.com/prostayuri1k" class="footer-link">prostayuri1k</a> 
+                <a href="https://app.rs.school" class="img-link"><img src="./assets/img/logo-rsschool3.png" class="img-footer"></a>             
+            </div>          
+        </div>
+    </footer>
+</body>
+</html>
