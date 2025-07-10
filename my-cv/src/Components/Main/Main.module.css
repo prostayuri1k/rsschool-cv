@@ -56,4 +56,20 @@
 
 .block_image img{
     max-width: 100%;
+    border-radius: 10px;
+}
+
+.code {
+    display: block;
+    max-width: 100%;
+    font-size: 0.7rem;
+    background: #232323;
+    color: #fff;
+    border-radius: 10px;
+    padding: 24px 18px;
+}
+
+.code_description {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
 }

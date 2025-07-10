@@ -31,9 +31,28 @@ const SectionRight = () => {
                         </div>
                     </li>
                     <li>
-                        <code>
-
-                        </code>
+                        <p>Task (6kyu)</p>
+                        <p className={s.code_description}>
+                            zipWith ( or zip_with ) takes a function and two arrays and zips the arrays together, applying the function to every pair of values.
+                            The function value is one new array.
+                        </p>
+                        <p className={s.code_description}>
+                            If the arrays are of unequal length, the output will only be as long as the shorter one.
+                            (Values of the longer array are simply not used.)
+                        </p>
+                        <p className={s.code_description}>
+                            Inputs should not be modified.
+                        </p>
+                        <pre>
+                            <code className={s.code}>{`function zipWith(fn,a0,a1) {
+  let arr = [];
+  for(let i = 0; i < Math.min(a0.length, a1.length); i++) {
+    arr.push(fn(a0[i], a1[i]));
+  }
+  return arr;
+}
+`}</code>
+                        </pre>
                     </li>
                 </ul>
             </div>
