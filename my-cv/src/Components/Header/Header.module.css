@@ -1,0 +1,55 @@
+.resume_header {
+    display: flex;
+    align-items: center;
+    background: #e74c3c;
+    color: #fff;
+    padding: 36px 90px;
+    gap: 32px;
+}
+
+.header_photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.header_info h1 {
+    margin: 0 0 20px 0;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.contacts {
+    padding: 0;
+    margin: 0;
+    width: max-content;
+}
+
+
+.contacts li {
+    margin-bottom: 10px;
+}
+
+.contacts li:last-child {
+    margin-bottom: 0;
+}
+
+.contacts a {
+    display: flex;
+    align-items: center;
+}
+
+.contacts a:hover {
+    transform: scale(1.08);
+}
+
+
+
+.contacts_img {
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+}
