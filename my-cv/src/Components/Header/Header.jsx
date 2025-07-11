@@ -9,7 +9,7 @@ import phone from '../../assets/social/phone.png';
 
 const Header = () => {
     return (
-        <header className={s.resume_header}>
+        <header className={s.header}>
             <div className={s.header_photo}>
                 <img src={avatar} alt="Yury Hrymats" />
             </div>
