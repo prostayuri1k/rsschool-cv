@@ -10,34 +10,34 @@ import phone from '../../assets/social/phone.png';
 const Header = () => {
     return (
         <header className={s.header}>
-            <div className={s.header_photo}>
+            <div className={s.headerPhoto}>
                 <img src={avatar} alt="Yury Hrymats" />
             </div>
-            <div className={s.header_info}>
+            <div className={s.headerInfo}>
                 <h1>Yury Hrymats</h1>
                 <nav>
                     <ul className={s.contacts}>
                         <li>
                             <a href={'https://t.me/iuragrimot'} target='_blank'>
-                                <img className={s.contacts_img} src={telegram} alt="Telegram"/>
+                                <img className={s.contactsImg} src={telegram} alt="Telegram"/>
                                 <span>@iuragrimot</span>
                             </a>
                         </li>
                         <li>
                             <a href={'mailto:yury.hrymats@icloud.com'} target='_blank'>
-                                <img className={s.contacts_img} src={mail} alt="Mail"/>
+                                <img className={s.contactsImg} src={mail} alt="Mail"/>
                                 yury.hrymats@icloud.com
                             </a>
                         </li>
                         <li>
                             <a href={'tel:+375336677798'} target='_blank'>
-                                <img className={s.contacts_img} src={phone} alt="Phone"/>
+                                <img className={s.contactsImg} src={phone} alt="Phone"/>
                                 +375 (33) 66-777-98
                             </a>
                         </li>
                         <li>
                             <a href={'https://discordapp.com/users/prostayuri1k/'} target='_blank'>
-                                <img className={s.contacts_img} src={discord} alt="Discord"/>
+                                <img className={s.contactsImg} src={discord} alt="Discord"/>
                                 prostayuri1k
                             </a>
                         </li>

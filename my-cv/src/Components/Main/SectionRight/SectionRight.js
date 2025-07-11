@@ -15,32 +15,32 @@ const SectionRight = () => {
                 <h2>Code examples:</h2>
                 <ul>
                     <li>
-                        <a href={'https://github.com/prostayuri1k/you_tube_spa'} target="_blank">
+                        <a href={'https://github.com/prostayuri1k/you_tube_spa'} target="_blank" rel="noopener noreferrer">
                             YouTubeSPA (in progress)
                         </a>
                     </li>
                     <li>
-                        <a href={'https://github.com/prostayuri1k/to-do-list/tree/RTK-API'} target="_blank">
+                        <a href={'https://github.com/prostayuri1k/to-do-list/tree/RTK-API'} target="_blank" rel="noopener noreferrer">
                             To_Do List with React and RTK
                         </a>
                     </li>
                     <li>
-                        <a href={'https://www.codewars.com/users/yury_hrymats'} target="_blank">CodeWars</a>
-                        <div className={s.block_image}>
+                        <a href={'https://www.codewars.com/users/yury_hrymats'} target="_blank" rel="noopener noreferrer">CodeWars</a>
+                        <div className={s.blockImage}>
                             <img src={codewars} alt="Code Wars" />
                         </div>
                     </li>
                     <li>
                         <p>Task (6kyu)</p>
-                        <p className={s.code_description}>
+                        <p className={s.codeDescription}>
                             zipWith ( or zip_with ) takes a function and two arrays and zips the arrays together, applying the function to every pair of values.
                             The function value is one new array.
                         </p>
-                        <p className={s.code_description}>
+                        <p className={s.codeDescription}>
                             If the arrays are of unequal length, the output will only be as long as the shorter one.
                             (Values of the longer array are simply not used.)
                         </p>
-                        <p className={s.code_description}>
+                        <p className={s.codeDescription}>
                             Inputs should not be modified.
                         </p>
                         <pre>

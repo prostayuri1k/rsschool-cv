@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className={s.footer}>
             <ul className={s.footerList}>
                 <li>
-                    <a href={'https://github.com/prostayuri1k'} target='_blank'>
+                    <a href={'https://github.com/prostayuri1k'} target='_blank' rel='noopener noreferrer'>
                         <img className={s.footerImg} src={gitHub} alt="GitHub"/>
                         <span>prostayuri1k</span>
                     </a>

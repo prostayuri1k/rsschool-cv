@@ -7,7 +7,7 @@
     gap: 32px;
 }
 
-.header_photo img {
+.headerPhoto img {
     width: 180px;
     height: 180px;
     border-radius: 5px;
@@ -15,7 +15,7 @@
     border: 2px solid #fff;
 }
 
-.header_info h1 {
+.headerInfo h1 {
     margin: 0 0 20px 0;
     font-size: 3rem;
     font-weight: 800;
@@ -39,7 +39,7 @@
     transform: scale(1.08);
 }
 
-.contacts_img {
+.contactsImg {
     width: 30px;
     height: 30px;
     margin-right: 20px;
