@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rsschool-cv/static/css/main.effba610.css",
+    "main.js": "/rsschool-cv/static/js/main.20515fc8.js",
+    "static/media/codewars.png": "/rsschool-cv/static/media/codewars.aa33acd243a0ff8412b8.png",
+    "static/media/avatar.jpeg": "/rsschool-cv/static/media/avatar.5a3242e2e1ad2e2e5ba8.jpeg",
+    "static/media/github.png": "/rsschool-cv/static/media/github.caeb9ff86e1c3e87612e.png",
+    "static/media/telegram.png": "/rsschool-cv/static/media/telegram.0a4265bfea7fe8beeaf2.png",
+    "static/media/mail.png": "/rsschool-cv/static/media/mail.7f0432c3a7d36f687c69.png",
+    "static/media/discord.png": "/rsschool-cv/static/media/discord.ec44cddce7b6a2e9d0a3.png",
+    "static/media/phone.png": "/rsschool-cv/static/media/phone.d35848942c955a6232b3.png",
+    "static/media/rs-school-logo.svg": "/rsschool-cv/static/media/rs-school-logo.c9ad545edbef7022f48528c658b1e507.svg",
+    "index.html": "/rsschool-cv/index.html",
+    "main.effba610.css.map": "/rsschool-cv/static/css/main.effba610.css.map",
+    "main.20515fc8.js.map": "/rsschool-cv/static/js/main.20515fc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.effba610.css",
+    "static/js/main.20515fc8.js"
+  ]
+}
